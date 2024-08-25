@@ -36,7 +36,7 @@ function AddTodo({editbtn,chngForm,back}) {
     
     return (
       <>
-         <h1 className=' text-center justify-center items-center text-3xl p-12 font-bold'>Todo App </h1>
+         <h1 className=' text-center justify-center items-center text-3xl p-12 font-bold'>Habitica </h1>
          {editbtn === false ? (
            <form onSubmit={addTodoHandler} className="space-x-3 mt-12 ml-[600px]">
            <input
